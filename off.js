@@ -120,10 +120,10 @@ var cat = (function(parent) {
 
 var someAnimal = Object.create(animal).init('Pesho', 5);
 
-var someCat = Object.create(cat).init('Gosho', 18, true);
-console.log(someCat);
-console.log(someCat.toString());
-console.log(someAnimal);
+//var someCat = Object.create(cat).init('Gosho', 18, true);
+//console.log(someCat);
+//console.log(someCat.toString());
+//console.log(someAnimal);
 // someAnimal.name = 'pasf';
 
-console.log();
+//console.log();
