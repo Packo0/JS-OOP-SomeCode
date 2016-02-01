@@ -126,3 +126,5 @@ console.log(someAnimal);
 // someAnimal.name = 'pasf';
 
 console.log();
+
+ala bala portokala
