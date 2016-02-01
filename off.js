@@ -70,8 +70,7 @@ var animal = (function() {
             return this; //ako ne varnem this nie izvikvame init-a kato standartna funckiq i she poluchim undefined
         },
         //tova neshto otgovarq kogato nqkoi kaje var someName = animal.name;
-        get name() 
-		{
+        get name() {
             return this._name; //private promenliva _name
         },
         set name(value) {
@@ -120,10 +119,12 @@ var cat = (function(parent) {
 
 var someAnimal = Object.create(animal).init('Pesho', 5);
 
-//var someCat = Object.create(cat).init('Gosho', 18, true);
-//console.log(someCat);
-//console.log(someCat.toString());
-//console.log(someAnimal);
+var someCat = Object.create(cat).init('Gosho', 18, true);
+console.log(someCat);
+console.log(someCat.toString());
+console.log(someAnimal);
 // someAnimal.name = 'pasf';
 
-//console.log();
+console.log();
+
+ala bala portokala
