@@ -70,8 +70,7 @@ var animal = (function() {
             return this; //ako ne varnem this nie izvikvame init-a kato standartna funckiq i she poluchim undefined
         },
         //tova neshto otgovarq kogato nqkoi kaje var someName = animal.name;
-        get name() 
-		{
+        get name() {
             return this._name; //private promenliva _name
         },
         set name(value) {
