@@ -28,6 +28,11 @@ console.log(databases.get()
     .list()
 );
 //poluchavam edin i sashti obekt t.e. pri vtoriq pat she printira vsichkite 4 obekta
+<<<<<<< HEAD
  
  
  hotfix mada faka
+=======
+
+new feature
+>>>>>>> Start developing a feature
